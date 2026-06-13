@@ -46,6 +46,7 @@ In this system, the Raspberry Pi is used mainly for camera video streaming. The 
 ---
 
 ### Smart Orange Classification System
+Repository: https://github.com/dauduc-luu/smart-orange-classification-system
 
 A smart orange classification system for detecting, analyzing and sorting oranges by size and quality.
 
