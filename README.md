@@ -1,12 +1,12 @@
 # Hi, I'm Dau Duc Luu
 
- 3rd-year Information Technology student at UNETI
- Interested in Computer Vision, AI and Robotics
- Building practical AI systems that connect software, camera-based perception and automation hardware
+3rd-year Information Technology student at UNETI
+Interested in Computer Vision, Artificial Intelligence and Robotics
+Building practical AI systems that connect camera-based perception, embedded devices and automation hardware
 
 ## About Me
 
-I am focusing on applied AI projects, especially systems that use computer vision to solve real-world problems. My current work is centered around autonomous robots, object detection, image processing and intelligent sorting systems.
+I focus on applied AI projects, especially computer vision systems for real-world automation problems. My current work is centered around object detection, image processing, autonomous robots and intelligent sorting systems.
 
 ## Main Focus
 
@@ -22,7 +22,7 @@ I am focusing on applied AI projects, especially systems that use computer visio
 
 An autonomous classroom attendance robot that uses camera-based face recognition to support automatic student attendance.
 
-In this system, the Raspberry Pi is used mainly for camera video streaming. The main AI processing is performed on a laptop to achieve better performance and make model testing easier. The robot system is designed to combine computer vision, robot navigation and attendance data management.
+In this system, the Raspberry Pi is mainly used for camera video streaming, while the main AI processing is performed on a laptop to achieve better performance and make model testing easier. The robot system is designed to combine computer vision, robot navigation and attendance data management.
 
 **Key features:**
 
@@ -46,27 +46,24 @@ In this system, the Raspberry Pi is used mainly for camera video streaming. The 
 ---
 
 ### Smart Orange Classification System
-Repository: https://github.com/dauduc-luu/smart-orange-classification-system
 
-A smart orange classification system for detecting, analyzing and sorting oranges by size and quality.
+Repository: [smart-orange-classification-system](https://github.com/dauduc-luu/smart-orange-classification-system)
 
-The system uses YOLOv8 to detect oranges from camera input. After detection, traditional image processing methods are applied to analyze orange size and surface quality. The main processing is performed on a laptop, while the Raspberry Pi is used for video streaming. A lower-level microcontroller is used to control motors and sorting mechanisms.
+A smart orange classification prototype that uses computer vision to detect oranges, identify surface defects and control a sorting mechanism.
 
-The system is designed to classify oranges into two size groups: large and small. Each size group is then separated into two quality categories: good and defective. Therefore, the final sorting output includes four groups: large-good, large-defective, small-good and small-defective oranges.
+The system uses YOLOv8 for orange detection from camera input. After detection, traditional image processing methods are applied to analyze defective regions on the orange surface. The main image processing runs on a laptop, while the Raspberry Pi is used for camera video streaming and communication with a lower-level microcontroller. The microcontroller controls the servo-based sorting mechanism.
 
-Collected data is sent to a web system, where sorting results are stored, calculated and analyzed to provide useful statistics for users.
+The current version focuses on defect detection and left/right sorting control. Future versions will extend the system to classify oranges by both size and quality, including large-good, large-defective, small-good and small-defective categories.
 
 **Key features:**
 
 * Orange detection using YOLOv8
-* Size analysis using traditional image processing
-* Quality analysis based on image features
-* Classification into large and small oranges
-* Sorting into good and defective categories
+* Defect detection using traditional image processing
 * Laptop-based image processing
-* Raspberry Pi video streaming
-* Microcontroller-based motor control
-* Web-based data monitoring and statistical analysis
+* Raspberry Pi camera video streaming
+* Microcontroller-based servo control
+* Real-time monitoring interface
+* Prototype analytics dashboard for sorting statistics
 
 **Core technologies:**
 
@@ -75,8 +72,8 @@ Collected data is sent to a web system, where sorting results are stored, calcul
 * YOLOv8
 * Raspberry Pi
 * Microcontroller Motor Control
-* Web Dashboard
-* Data Analysis
+* Image Processing
+* Data Visualization
 
 ## Tech Stack
 
@@ -106,6 +103,5 @@ I am building a practical AI and Robotics portfolio through real-world projects,
 
 ## Contact
 
-* GitHub: github.com/dauduc-luu
-* Email: anhluuki@gmail.com
-
+* GitHub: [github.com/dauduc-luu](https://github.com/dauduc-luu)
+* Email: [anhluuki@gmail.com](mailto:anhluuki@gmail.com)
